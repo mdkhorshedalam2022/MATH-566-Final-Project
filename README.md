@@ -10,7 +10,7 @@ To run the program, one needs to download the files in the code folder, then ope
 ## Output
 The program will generate two figures. The first figure will show the contour lines of PFAS concentration; the second figure will show the plot of the time history of PFAS concentration at three specific nodes. Also, this program will print the elapsed time based on the chosen numerical method. 
 
-In addition, to generate the computational time comparison plot of the Gaussian elimination method and Generalized minimal residual method, one needs to download and run [comparisonPlot.m](./comparisonPlot.m). 
+In addition, to generate the computational time comparison plot of the Gaussian elimination method and Generalized minimal residual method, one needs to download and run [comparisonPlot.m](./comparisonPlot.m).
 
 ## Caution
 Due to the iterative process of updating concentration values, it has also been observed that complete soil saturation happens within certain time steps, i.e., there will be no changes in the figure after that, though the code will run until it reaches the final time.
