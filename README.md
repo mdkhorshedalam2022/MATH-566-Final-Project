@@ -11,3 +11,6 @@ To run the program, one needs to download the files in the code folder, then ope
 The program will generate two figures. The first figure will show the distribution of nodes according to chosen inlet and outlet combinations; the second figure will show the plot of flow velocity with equipotential lines; and the last figure will show the plot of contour lines for the pressure head.
 
 In addition, to generate the computational time comparison plot of the Gaussian elimination method and Generalized minimal residual method, one needs to download and run [comparisonPlot.m](./comparisonPlot.m). 
+
+## Caution
+Due to the iterative process of updating concentration values, it has also been observed that complete soil saturation happens within certain time steps, i.e., there will be no changes in the figure after that, though the code will run until it reaches the final time.
