@@ -6,7 +6,6 @@
 %             top boundary: vz=0; bottom boundary: vz=0.
 % Dirichlet BC: inlet: C=12, outlet(s): C=0.
 %==========================================================================
-
 % The output of this program is 
 % 1- Calculate PFAS concentration to  
 % to generate contour plot PFAS transportation(Fig 1) 
