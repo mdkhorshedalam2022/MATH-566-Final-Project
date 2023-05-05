@@ -22,7 +22,7 @@
 %++++++++++++++++++++++++++++++++++
 
 %+++++++++++++++++++++++++++++Program Begin++++++++++++++++++++++++++++++++
-close all; % clear workspace and close figures
+close all; % close figures
 
 %***********************Defining parameters Begin**************************
 % declaring global avriables
