@@ -8,7 +8,7 @@ The governing equation, boundary conditions, mathematical formulation, and imple
 To run the program, one needs to download the files in the code folder, then open the [main.m](./main.m) in MATLAB interface. The program requires the user to provide values for certain parameters to suit the details of the desired analysis, though for a few parameters a default value can be chosen. 
 
 ## Output
-The program will generate two figures. The first figure will show the distribution of nodes according to chosen inlet and outlet combinations; the second figure will show the plot of flow velocity with equipotential lines; and the last figure will show the plot of contour lines for the pressure head.
+The program will generate two figures. The first figure will show the contour lines of PFAS concentration; the second figure will show the plot of the time history of PFAS concentration at three specific nodes. Also, this program will print the elapsed time based on the chosen numerical method. 
 
 In addition, to generate the computational time comparison plot of the Gaussian elimination method and Generalized minimal residual method, one needs to download and run [comparisonPlot.m](./comparisonPlot.m). 
 
