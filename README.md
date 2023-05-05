@@ -5,7 +5,7 @@ This program solves the 2D PFAS transport equation using MATLAB's built-in Gauss
 The governing equation, boundary conditions, mathematical formulation, and implementation of the numerical scheme are discussed in the file attached named [Project Report.pdf](./Project Report.pdf).
 
 ## Configure Instructions
-To run the program, one needs to download the files in the code folder, then open the [main.m](./main.m) in MATLAB interface. The program requires the user to provide values for certain parameters to suit the details of the desired analysis, though for a few parameters a default value can be chosen. 
+To run the program, one needs to download the files in the code folder, then open the [main.m](./main.m) in MATLAB interface. The program requires the user to provide values for certain parameters to suit the details of the desired analysis, though for a few parameters a default value can be chosen.
 
 ## Output
 The program will generate two figures. The first figure will show the contour lines of PFAS concentration; the second figure will show the plot of the time history of PFAS concentration at three specific nodes. Also, this program will print the elapsed time based on the chosen numerical method. 
